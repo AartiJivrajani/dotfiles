@@ -100,3 +100,7 @@ augroup mydelimitMate
     au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
     au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
+
+"-----------TMUX SETTINGS--------------
+let g:tmux_navigator_save_on_switch = 2
+nnoremap <esc> :noh<return><esc>

@@ -103,4 +103,3 @@ augroup END
 
 "-----------TMUX SETTINGS--------------
 let g:tmux_navigator_save_on_switch = 2
-nnoremap <esc> :noh<return><esc>
